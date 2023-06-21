@@ -1,3 +1,7 @@
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+
 .App {
   text-align: center;
 }
@@ -28,10 +32,33 @@
   color: #61dafb;
 }
 
+.buttonsPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.callButtons {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.cancelCallButtons {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
